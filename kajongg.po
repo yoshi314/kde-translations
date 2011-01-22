@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
 "POT-Creation-Date: 2010-12-26 02:57+0100\n"
-"PO-Revision-Date: 2011-01-22 21:23+0100\n"
+"PO-Revision-Date: 2011-01-22 21:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Reguły rozdania"
 
 #: src/scoringengine.py:94
 msgid "Hand rules are applied to the entire hand, for all players"
-msgstr "Reguły rozdania dotyczą całego rozdania, każdego z graczy"
+msgstr "Reguły rozdania stosuje się do całego rozdania każdego z graczy"
 
 #: src/scoringengine.py:95
 msgid "Winner Rules"
@@ -80,7 +80,7 @@ msgstr "Reguły zwycięzcy"
 
 #: src/scoringengine.py:96
 msgid "Winner rules are applied to the entire hand but only for the winner"
-msgstr "Reguły zwycięzcy dotyczą całego rozdania, ale tylko zwycięzcyu"
+msgstr "Reguły zwycięzcy stosuje się do całego rozdania zwycięskiego gracza"
 
 #: src/scoringengine.py:97
 msgid "Mah Jongg Rules"
@@ -1318,6 +1318,9 @@ msgid ""
 "All tiles concealed of same color: Values 1-1-1-2-3-4-5-6-7-8-9-9-9 plus "
 "another tile of the same color (from wall or discarded)"
 msgstr ""
+"Ukrycie wszystkich kamieni tego samego koloru. Wartości "
+"1-1-1-2-3-4-5-6-7-8-9-9-9 oraz inny kamień tego samego koloru (ze ściany lub "
+"z odrzuconych kamieni)noy11Wszy"
 
 #: src/predefined.py:205
 msgid "Nine Gates"
@@ -1328,10 +1331,12 @@ msgid ""
 "13 single tiles: All dragons, winds, 1, 9 and a 14th tile building a pair "
 "with one of them"
 msgstr ""
+"13 pojedynczych kamieni: Smoki, wiatry, pierwszy, dziewiąty i 14 kamień "
+"tworzy z nimi parę.m w wi"
 
 #: src/predefined.py:209
 msgid "Thirteen Orphans"
-msgstr ""
+msgstr "Trzynaście sierotyma"
 
 #: src/predefined.py:216
 msgid "Pung/Kong of Dragons"
@@ -1391,7 +1396,7 @@ msgstr ""
 
 #: src/predefined.py:237
 msgid "Concealed Pung of Honors"
-msgstr ""
+msgstr "Ukryty Zaprzęg "
 
 #: src/predefined.py:239
 msgid "Pair of Own Wind"
@@ -1399,7 +1404,7 @@ msgstr "Para Własnego Wiatru"
 
 #: src/predefined.py:240
 msgid "Pair of Round Wind"
-msgstr ""
+msgstr "Para Okrągłego Wiatru"
 
 #: src/predefined.py:241
 msgid "Pair of Dragons"
@@ -1442,11 +1447,11 @@ msgstr "Powtórz hasło:"
 
 #: src/humanclient.py:329
 msgid "Which chow do you want to expose?"
-msgstr ""
+msgstr "Jaki chow chcesz wyeksponować?mowe"
 
 #: src/humanclient.py:366
 msgid "Which kong do you want to declare?"
-msgstr ""
+msgstr "Jaki kong chcesz zadeklarować?"
 
 #: src/humanclient.py:417
 msgid "Choose"
@@ -1458,7 +1463,7 @@ msgstr "Nie możesz powiedzieć %1"
 
 #: src/humanclient.py:559
 msgid "&Ready for next hand?"
-msgstr ""
+msgstr "%Gotowy na kolejne rozdanie?do "
 
 #: src/humanclient.py:599
 msgid "Login aborted"
@@ -1466,7 +1471,7 @@ msgstr "Logowanie przerwane"
 
 #: src/humanclient.py:656
 msgid "removed stale socket <filename>%1</filename>"
-msgstr ""
+msgstr "usunięto stary plik gniazda <filename>%1</filename>sock"
 
 #: src/humanclient.py:687
 msgid "started the local kajongg server: pid=<numid>%1</numid> %2"
@@ -1557,7 +1562,7 @@ msgstr "Oryginalny autor"
 
 #: src/kajongg.py:63
 msgid "all robots play with visible concealed tiles"
-msgstr ""
+msgstr "wszyscy komputerowi przeciwnicy grają z odsłoniętymi klockamiwirtualni"
 
 #: src/kajongg.py:64
 msgid "play like a robot using ruleset"
@@ -1565,19 +1570,19 @@ msgstr ""
 
 #: src/kajongg.py:65
 msgid "show traffic with game server"
-msgstr ""
+msgstr "Pokaż ruch na serwerze gry"
 
 #: src/kajongg.py:66
 msgid "show all available rulesets"
-msgstr ""
+msgstr "Pokaż wszystkie dostępne zestawy regułepnsg dosz"
 
 #: src/kajongg.py:68
 msgid "for testing purposes: Initializes the random generator"
-msgstr ""
+msgstr "Do testów: Inicjalizuje generator liczb losowychzj.i"
 
 #: src/kajongg.py:69
 msgid "show no graphical user interface. Intended only for testing"
-msgstr ""
+msgstr "ukrywa interfejs użytkownika. Do testów"
 
 #: src/message.py:93
 msgctxt "kajongg"
