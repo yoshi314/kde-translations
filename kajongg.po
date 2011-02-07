@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
 "POT-Creation-Date: 2010-12-26 02:57+0100\n"
-"PO-Revision-Date: 2011-01-22 21:57+0100\n"
+"PO-Revision-Date: 2011-02-07 17:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: pl\n"
 
 #: rc.cpp:3 rc.cpp:18
 msgid "Preview"
@@ -127,22 +128,19 @@ msgid "%4 have impossible values %2/%3 in rule \"%1\""
 msgstr "%4 ma nieprawidłowe wartości %2/%3 w regule \"%1\"4 m$"
 
 #: src/scoringengine.py:1015
-#, fuzzy
 msgctxt "kajongg"
 msgid "%1 base points"
-msgstr "%1 podstawowe punkty"
+msgstr "%1 bazowych punktów"
 
 #: src/scoringengine.py:1017 src/meld.py:373
-#, fuzzy
 msgctxt "kajongg"
 msgid "%1 doubles"
-msgstr "%1 podwojenia"
+msgstr "%1 par"
 
 #: src/scoringengine.py:1019
-#, fuzzy
 msgctxt "kajongg"
 msgid "%1 limits"
-msgstr "%1 limity"
+msgstr "%1 limitów"
 
 #: src/games.py:64
 msgctxt "kajongg"
@@ -174,13 +172,14 @@ msgid "Players"
 msgstr "Gracze"
 
 #: src/games.py:177
-#, fuzzy
 msgid ""
 "Do you really want to delete <numid>%1</numid> games?<br>This will be final, "
 "you cannot cancel it with the cancel button"
 msgstr ""
+""
 "na pewno chcesz usunąć <numid>%1</numid> gier?<br>To działanie jest "
-"ostateczne, nie możesz go anulować przy pomocy odpowiedniego przycisku"
+"nieodwracalne, "
+"nie możesz go anulować przy pomocy odpowiedniego przycisku"
 
 #: src/scoring.py:82
 msgctxt "kajongg"
@@ -222,9 +221,8 @@ msgid "Computed scoring for %1:"
 msgstr "Wyliczona punktacja dla %1:ha"
 
 #: src/scoring.py:257
-#, fuzzy
 msgid "Total for %1: %2 base points, %3 doubles, %4 points"
-msgstr "Całkowite dla %1: %2 punktów podstawowych, %3 podwojeń, %4 punktów"
+msgstr "Łącznie dla %1: %2 punktów podstawowych, %3 par, %4 punktów"
 
 #: src/scoring.py:260
 msgid "Manual score for %1: %2 points"
@@ -297,31 +295,33 @@ msgid "&Save Hand"
 msgstr "Zapi&sz rozdanie "
 
 #: src/scoring.py:472
-#, fuzzy
 msgid "&Last Tile:"
-msgstr "&Ostatni kamień"
+msgstr ""
+""
+"&Ostatni kamień"
 
 #: src/scoring.py:480
-#, fuzzy
 msgid "L&ast Meld:"
-msgstr "O&statni meldunek:"
+msgstr ""
+"O&statni układ:"
+":"
 
 #: src/server.py:89
-#, fuzzy
 #| msgid "User already exists"
 msgid "User %1 already exists"
-msgstr "Podany użytkownik już istnieje"
+msgstr "Użytkownik %1 już istnieje"
 
 #: src/server.py:113
 msgid "Wrong password"
 msgstr "Błędne hasło"
 
 #: src/server.py:136
-#, fuzzy
 #| msgid "&New"
 msgctxt "table status"
 msgid "New"
-msgstr "&Nowa"
+msgstr ""
+""
+"&Nowa"
 
 #: src/server.py:169
 msgid "You already joined this table"
@@ -353,7 +353,7 @@ msgstr "Tylko założyciel %1 może zacząć tą grę, ty jesteś %2"
 #: src/server.py:318
 msgctxt "table status"
 msgid "Running"
-msgstr ""
+msgstr "Trwające"
 
 #: src/server.py:488
 msgid "The game is over!"
@@ -361,33 +361,34 @@ msgstr "Koniec gry!"
 
 #: src/server.py:513
 msgid "%1 wrongly said %2 for meld %3"
-msgstr "%1 nieprawidlowo zgloszone %2 dla ukladu %3oloszon"
+msgstr "%1 nieprawidlowo zgloszone %2 dla ukladu %3"
 
 #: src/server.py:517
 msgid "%1 wrongly said %2: claims to have concealed tiles %3 but only has %4"
 msgstr ""
-"%1 blednie zglosil %2 : twierdzi ze ukryl kamienie %3 ale ma tylko %4$ "
-"mazednieprawidlowo zglosil"
+"%1 blednie zglosil %2 : twierdzi ze posiada ukryte kamienie %3 ale dysponuje "
+"tylko %4"
 
 #: src/server.py:547
 msgid "declareKong:%1 wrongly said Kong for meld %2"
-msgstr ""
+msgstr "declareKonf:%1 błędnie zgłoszone Kong dla układu %2"
 
 #: src/server.py:581
 msgid "%1 claiming MahJongg: She does not really have tile %2"
-msgstr ""
+msgstr "%1 zgłasza że ma Mahjongg. Nie posiada kamieni %2"
 
 #: src/server.py:586
 msgid ""
 "%1 claiming MahJongg: She did not pass all concealed tiles to the server"
 msgstr ""
+"%1 zgłasza że ma Mahjongg. Nie przekazał wszystkich zakrytych kamieni do "
+"serwera."
 
 #: src/server.py:590
 msgid "%1 claiming MahJongg: This is not a winning hand: %2"
-msgstr ""
+msgstr "%1 zgłasza że ma Mahjongg. To nie jest zwycięskie rozdanie: %2"
 
 #: src/server.py:731 src/server.py:766
-#, fuzzy
 msgid "table with id <numid>%1</numid> not found"
 msgstr "tabela o numerze <numid>%1</numid> nie znaleziona"
 
@@ -398,15 +399,15 @@ msgstr "Gracz %1 wylogował się"
 #: src/server.py:842
 msgctxt "table status"
 msgid "Suspended"
-msgstr ""
+msgstr "Wstrzymano"
 
 #: src/server.py:911
 msgid "the server will listen on PORT"
-msgstr ""
+msgstr "serwer będzie nasłuchiwać na PORT"
 
 #: src/server.py:914
 msgid "the server will show network messages"
-msgstr ""
+msgstr "serwer będzie pokazywać wiadomości sieciowe"
 
 #: src/server.py:916 src/kajongg.py:67
 msgid "show database SQL commands"
@@ -418,49 +419,46 @@ msgstr "nazwa bazy danych"
 
 #: src/server.py:919
 msgid "listen on UNIX socket %1"
-msgstr ""
+msgstr "nasłuchuj na gnieździe UNIX %1"
 
 #: src/server.py:922
 msgid "unrecognized arguments:%1"
 msgstr "nierozpoznane argumenty: %1"
 
 #: src/playfield.py:108
-#, fuzzy
 #| msgid "show tile shadows"
 msgid "Show tile shadows"
-msgstr "pokaż cienie płytek"
+msgstr "pokaż cienie kamieni"
 
 #: src/playfield.py:110
 msgid "Rearrange undisclosed tiles to melds"
-msgstr ""
+msgstr "Uporządkuj nie ujawnione kamienie w układy."
 
 #: src/playfield.py:112
-#, fuzzy
 #| msgid "Show only pending games"
 msgid "Show only possible actions"
-msgstr "Pokaż tylko gry w oczekiwaniu"
+msgstr "Pokaż tylko dopuszczalne ruchy"
 
 #: src/playfield.py:118
 msgid "Animation speed:"
-msgstr ""
+msgstr "Szybkośc animacji:"
 
 #: src/playfield.py:122
 msgid "Use sounds if available"
 msgstr "Używaj dźwięków (jeśli dostępne)"
 
 #: src/playfield.py:124
-#, fuzzy
 msgid "Let others hear my voice"
-msgstr "Pozwól innym słyszeć moje dźwięki"
+msgstr "Pozwól innym słyszeć mój głos"
 
 #: src/playfield.py:151
 msgctxt "kajongg"
 msgid "Play"
-msgstr "Gra"
+msgstr "Graj"
 
 #: src/playfield.py:153
 msgid "Tiles"
-msgstr "Płytki"
+msgstr "Kamienie"
 
 #: src/playfield.py:155
 msgid "Backgrounds"
@@ -471,7 +469,6 @@ msgid "Rulesets"
 msgstr "Zestawy reguł"
 
 #: src/playfield.py:180
-#, fuzzy
 msgid ""
 "Cannot save your ruleset changes.<br>You probably introduced a duplicate "
 "name. <br><br >Message from database:<br><br><message>%1</message>"
@@ -490,18 +487,17 @@ msgstr "Zgodnie z zasadami, %1 i %2 powinni teraz zamienić się miejscami. "
 
 #: src/playfield.py:198
 msgid "&Exchange"
-msgstr ""
+msgstr "&Zamiana"
 
 #: src/playfield.py:200
 msgid "&Keep seat"
-msgstr ""
+msgstr "%Nie zmieniaj miejsca"
 
 #: src/playfield.py:215
 msgid "Select four players"
 msgstr "Wybierz czterech graczy"
 
 #: src/playfield.py:611
-#, fuzzy
 msgctxt ""
 "kajongg:keyboard commands for moving tiles to the players with wind ESWN or "
 "to the central tile selector (X)"
@@ -510,66 +506,59 @@ msgstr " "
 
 #: src/playfield.py:642
 msgid "&Score Manual Game"
-msgstr ""
+msgstr "&Oblicz punktację w ręcznej rozgrywce"
 
 #: src/playfield.py:643
-#, fuzzy
 msgid "&Play"
 msgstr "&Graj"
 
 #: src/playfield.py:644
-#, fuzzy
 msgid "&Abort"
-msgstr "&Przerwij"
+msgstr "&Przerwij "
 
 #: src/playfield.py:645
-#, fuzzy
 msgid "&Quit"
 msgstr "&Wyjdź"
 
 #: src/playfield.py:646
-#, fuzzy
 msgid "&Players"
 msgstr "&Gracze"
 
 #: src/playfield.py:647
 msgid "&Change Visual Angle"
-msgstr ""
+msgstr "&Zmień kąt widoku"
 
 #: src/playfield.py:648
 msgid "&Scoring"
-msgstr ""
+msgstr "&Punktacja"
 
 #: src/playfield.py:649
-#, fuzzy
 msgctxt "kajongg"
 msgid "&Score Table"
 msgstr "&Tabela wyników"
 
 #: src/playfield.py:650
 msgid "&Explain Scores"
-msgstr ""
+msgstr "&Wyjaśnij wyniki"
 
 #: src/playfield.py:651
 msgid "&Demo Mode"
-msgstr ""
+msgstr "Tryb &demonstracji"
 
 #: src/tables.py:66
 msgid "Table"
 msgstr "Tabela"
 
 #: src/tables.py:66
-#, fuzzy
 #| msgid "&Start"
 msgctxt "table status"
 msgid "Status"
-msgstr "&Start"
+msgstr "&Status"
 
 #: src/tables.py:66
-#, fuzzy
 #| msgid "Rulesets"
 msgid "Ruleset"
-msgstr "Zestawy reguł"
+msgstr "Zestaw reguł"
 
 #: src/tables.py:135
 msgid "Select a ruleset"
@@ -577,7 +566,7 @@ msgstr "Wybierz zestaw reguł:"
 
 #: src/tables.py:167 src/tables.py:290
 msgid "Allocate a new table"
-msgstr ""
+msgstr "Utwórz nowy stół"
 
 #: src/tables.py:169 src/tables.py:291
 msgid "&Join"
@@ -585,7 +574,7 @@ msgstr "&Dołącz"
 
 #: src/tables.py:172 src/tables.py:292
 msgid "Join a table"
-msgstr ""
+msgstr "Dołącz do stołu"
 
 #: src/tables.py:173
 msgid "&Leave"
@@ -593,7 +582,7 @@ msgstr "&Opuść"
 
 #: src/tables.py:176
 msgid "Leave a table"
-msgstr ""
+msgstr "Opuśc stół"
 
 #: src/tables.py:177
 msgctxt "Kajongg-Ruleset"
@@ -611,9 +600,9 @@ msgstr "&Start"
 #: src/tables.py:184
 msgid "Start playing on a table. Empty seats will be taken by robot players."
 msgstr ""
+"Rozpocznij rozgrywkę przy stole. Wolne miejsca zajmą przeciwnicy komputerowi."
 
 #: src/tables.py:228
-#, fuzzy
 #| msgctxt "kajongg name for local game server"
 #| msgid "Local Game"
 msgid "Local Games"
@@ -621,20 +610,20 @@ msgstr "Gra lokalna"
 
 #: src/tables.py:230
 msgid "Tables at %1"
-msgstr ""
+msgstr "Stoły w %1"
 
 #: src/tables.py:286
 msgid "Start a new game"
-msgstr ""
+msgstr "Rozpocznij nową rozgrywkę"
 
 #: src/tables.py:287
 msgctxt "resuming a local suspended game"
 msgid "&Resume"
-msgstr ""
+msgstr "%Wznów"
 
 #: src/tables.py:288
 msgid "Resume the selected suspended game"
-msgstr ""
+msgstr "Wznawia wskazaną wstrzymaną rozrywkę"
 
 #: src/deferredutil.py:147 src/deferredutil.py:186 src/deferredutil.py:218
 msgid "The game server lost connection to player %1"
@@ -650,7 +639,7 @@ msgstr ""
 
 #: src/background.py:81
 msgid "cannot find any background, is libkmahjongg installed?"
-msgstr "Nie można znaleźć żadnego tła. Czy libmahjongg jest zainstalowane?"
+msgstr "Nie można znaleźć żadnego tła. Czy libkmahjongg jest zainstalowane?"
 
 #: src/background.py:83
 msgid "cannot find background %1, using default"
@@ -658,12 +647,12 @@ msgstr "Nie można znaleźć tła %1, użyto domyślnego"
 
 #: src/background.py:135 src/tileset.py:149
 msgid "file <filename>%1</filename> contains no valid SVG"
-msgstr ""
+msgstr "plik <filename>%1</filename> nie zawiera prawidłowych danych SVG"
 
 #: src/meld.py:41
 msgctxt "kajongg meld type"
 msgid "&single"
-msgstr ""
+msgstr "%pojedynczy"
 
 #: src/meld.py:43
 msgctxt "kajongg meld type"
@@ -688,7 +677,7 @@ msgstr "k&ong"
 #: src/meld.py:51
 msgctxt "kajongg meld type"
 msgid "c&laimed kong"
-msgstr ""
+msgstr "z&dobyty kong"
 
 #: src/meld.py:64
 msgctxt "kajongg"
@@ -702,7 +691,7 @@ msgstr "odkryty"
 
 #: src/meld.py:120
 msgid "doubles"
-msgstr "podwojenia"
+msgstr "pary"
 
 #: src/meld.py:120
 msgid "limits"
@@ -716,7 +705,7 @@ msgstr "%1 punktów"
 #: src/meld.py:148
 msgctxt "Kajongg"
 msgid "%1 doubles"
-msgstr "%1 podwojeń"
+msgstr "%1 par"
 
 #: src/meld.py:150
 msgctxt "Kajongg"
@@ -741,7 +730,7 @@ msgstr "bambus"
 #: src/meld.py:328
 msgctxt "kajongg"
 msgid "character"
-msgstr ""
+msgstr "znak"
 
 #: src/meld.py:329
 msgctxt "kajongg"
@@ -811,7 +800,7 @@ msgstr "własny wiatr"
 #: src/meld.py:335
 msgctxt "kajongg"
 msgid "round wind"
-msgstr ""
+msgstr "dominujący wiatr"
 
 #: src/meld.py:372
 msgctxt "kajongg"
@@ -838,7 +827,7 @@ msgstr "Punkt"
 #: src/rulesetselector.py:182
 msgctxt "Rulesetselector"
 msgid "Unit"
-msgstr ""
+msgstr "Jednostka"
 
 #: src/rulesetselector.py:183
 msgctxt "Rulesetselector"
@@ -851,17 +840,14 @@ msgid "Rule"
 msgstr "Reguła"
 
 #: src/rulesetselector.py:659
-#, fuzzy
 msgid "&Copy"
 msgstr "&Kopiuj"
 
 #: src/rulesetselector.py:660
-#, fuzzy
 msgid "R&emove"
 msgstr "&Usuń"
 
 #: src/rulesetselector.py:661
-#, fuzzy
 msgctxt "Kajongg ruleset comparer"
 msgid "C&ompare"
 msgstr "&Porównaj"
@@ -872,7 +858,6 @@ msgid "Name"
 msgstr "Nazwa"
 
 #: src/playerlist.py:88
-#, fuzzy
 msgid ""
 "Cannot save this. Possibly the name already exists. <br><br>Message from "
 "database:<br><br><message>%1</message>"
@@ -881,7 +866,6 @@ msgstr ""
 "bazy danych:<br><br><message>%1</message>"
 
 #: src/playerlist.py:116
-#, fuzzy
 msgid "This player cannot be deleted. There are games associated with %1."
 msgstr "Ten gracz nie może zostać usunięty. Są gry powiązane z %1."
 
@@ -895,47 +879,51 @@ msgid "Compare"
 msgstr "Porównaj"
 
 #: src/differ.py:167 src/differ.py:168
-#, fuzzy
 msgctxt "Kajongg-Rule"
 msgid "not defined"
-msgstr "niezdefiniowano"
+msgstr "nie zdefiniowano"
 
 #: src/predefined.py:32
 msgid "Classical Chinese DMJL"
-msgstr ""
+msgstr "Klasyczny Chiński np. DMJL"
 
 #: src/predefined.py:39
 msgid "Classical Chinese as defined by the Deutsche Mah Jongg Liga (DMJL) e.V."
-msgstr ""
+msgstr "Klasyczny Chiński na bazie reguł DMJL - Niemieckiej Ligi Mah Jongg"
 
 #: src/predefined.py:46
 msgid ""
 "The dead wall is also called kong box: The last 16 tiles of the wall used as "
 "source of replacement tiles"
 msgstr ""
+"Martwa ściana nazywa się też pudełkiem kong. Ostatnie 16 kamieni tej ściany "
+"służy za źródło kamieni na wymianę."
 
 #: src/predefined.py:44
 msgid "Last Tile Taken from Dead Wall"
-msgstr ""
+msgstr "Ostatni kamień z Martwej Ściany"
 
 #: src/predefined.py:50
 msgid ""
 "Winner said Mah Jong with the last tile taken from the living end of the wall"
 msgstr ""
+"Zwycięzca zgłosił Mah Jong z ostatnim kamieniem podjętym z żywego końca ściany"
 
 #: src/predefined.py:48
 msgid "Last Tile is Last Tile of Wall"
-msgstr ""
+msgstr "Ostatni kamień jest ostatnim kamieniem ze ściany"
 
 #: src/predefined.py:53
 msgid ""
 "Winner said Mah Jong by claiming the last tile taken from the living end of "
 "the wall, discarded by another player"
 msgstr ""
+"Zwycięzca zgłosił Mah Jong zabierając ostatni kamień z żywego końca ściany, "
+"odłożony przez innego gracza"
 
 #: src/predefined.py:51
 msgid "Last Tile is Last Tile of Wall Discarded"
-msgstr ""
+msgstr "Ostatni kamień to ostatni kamień ze ściany odrzuconych"
 
 #: src/predefined.py:57
 msgid ""
